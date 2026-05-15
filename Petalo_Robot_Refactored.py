@@ -132,7 +132,7 @@ class DifferentialDriveSimulator:
         <axis xyz="0 0 1"/><origin xyz="0.2 0 -0.05"/>
     </joint>
 </robot>"""
-        filename = "three_wheel_robot_trebol.urdf"
+        filename = "three_wheel_robot_petalo.urdf"
         with open(filename, "w") as f:
             f.write(urdf_content)
         return filename

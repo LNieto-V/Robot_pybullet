@@ -9,7 +9,7 @@ Este repositorio contiene la implementación y simulación en **PyBullet** de un
 - **Múltiples Trayectorias de Prueba:**
   - **Circular:** `Circular_Robot_Refactored.py`
   - **Infinito (Lemniscata):** `Infinito_Robot_Refactored.py`
-  - **Trébol (Rosa Polar de 3 Pétalos):** `Trebol_Robot_Refactored.py`
+  - **Pétalo (Rosa Polar de 3 Pétalos):** `Petalo_Robot_Refactored.py`
 - **Benchmarking de Latencia:** Un script dedicado (`latencia.py`) para perfilar el costo computacional del controlador difuso puro, garantizando tiempos de respuesta estrictamente inferiores a 5 ms por ciclo (promediando ~0.003 ms) sin el uso de dependencias pesadas.
 
 ## Requisitos y Configuración
@@ -34,8 +34,8 @@ uv run python Circular_Robot_Refactored.py
 # Simular trayectoria en forma de infinito
 uv run python Infinito_Robot_Refactored.py
 
-# Simular trayectoria en forma de trébol
-uv run python Trebol_Robot_Refactored.py
+# Simular trayectoria en forma de pétalo
+uv run python Petalo_Robot_Refactored.py
 ```
 
 Al terminar la simulación (o al cerrar la ventana de PyBullet), se generará automáticamente una gráfica (Matplotlib) comparando las trayectorias real y deseada, y los perfiles de velocidad/torque.

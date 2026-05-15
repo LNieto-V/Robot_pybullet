@@ -93,7 +93,7 @@ trajectories = {
             2.5464,
         ],
     },
-    "Trebol": {
+    "Petalo": {
         "x": xd_t,
         "y": yd_t,
         "phi": phid_t,
