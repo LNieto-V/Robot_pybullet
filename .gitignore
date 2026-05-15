@@ -13,3 +13,5 @@ wheels/
 *.csv
 control_times_*.txt
 *.eps
+*.pdf
+docs_noIA/*.pdf
